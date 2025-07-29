@@ -1,0 +1,173 @@
+#container{
+    width: 100vw ;
+    height: 100vh ;
+    background-color: #f0f4f9;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+
+#space-to-login{
+    width: 70%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    border-radius: 16px;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+   
+
+}
+.head{
+    font-size: 31px;
+}
+
+#left{
+    width:50% ;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+#right{
+    width:50%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.box{
+    width: 50%;
+    margin-left: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#logo{
+    width:40px;
+    height: 40px;
+}
+
+#email-sdt{
+    border-radius: 10px;
+    
+    
+}
+.form-control{
+    width: 94%;
+    height: 50px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    font-size: 16px;
+}
+.highlight{
+    color: #0b57d0;
+
+}
+.highlight:hover{
+background-color:#f5f8fd  ;
+}
+
+
+.gachduoi{
+    color: #0b57d0;
+}
+.gachduoi:hover{
+    text-decoration: underline;
+}
+button.a{
+    width: 190px;
+    height: 40px;
+    border-radius:20px;
+    font-size: 14px;
+    border:0px;
+   color: #0b57d0;
+   background-color: white;
+   
+}
+ button.a:hover{
+   background-color: #f7f9f7;
+   
+}
+
+
+button.b{
+     width: 180px;
+    height: 40px;
+    border-radius:20px;
+    font-size: 14px;
+    background-color: #0b57d0;
+    border: 0px;
+    color: white;
+   
+}
+
+.word-outside{
+    width: 78%;
+    display: flex;
+    justify-content: right;
+    margin-left: 5%
+    
+    font-size: 14px;
+    font: "Roboto", sans-serif;
+    
+}
+
+.mot{
+    width: 70px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 17px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #f0f4f9;
+}
+.mot:hover{
+    background-color: #e2e7eb;
+}
+.hai{
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 17px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #f0f4f9;
+}
+.hai:hover{
+    background-color: #e2e7eb;
+}
+.ba{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 17px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #f0f4f9;
+}
+.ba:hover{
+    background-color: #e2e7eb;
+}
+
+.language{
+    display: flex;
+    margin-right: 62%;
+    margin-top: 20px;   
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color:#f0f4f9 ;
+}
+.language:hover{
+    background-color:#e2e7eb ;
+}
