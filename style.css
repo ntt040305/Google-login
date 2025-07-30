@@ -109,6 +109,9 @@ button.b{
     color: white;
    
 }
+button.b:hover{
+    background-color: #0e4eb5;
+}
 
 .word-outside{
     width: 78%;
